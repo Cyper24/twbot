@@ -14,5 +14,5 @@ for word in f:
    if word == "/n":
       continue   
    cl.create_tweet(text=word)
-   print("Tweet Success")
+   print("Tweet Success " + word)
    sleep(2)
